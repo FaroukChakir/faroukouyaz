@@ -11,7 +11,7 @@ export default function Header()
    
 
 <Navbar>
-  <div style={{backgroundColor: 'red'}}>
+  <div >
     <img src={Logo} className='ImgCss' />
 
   </div>
@@ -24,21 +24,21 @@ export default function Header()
       </InputGroup.Prepend>
       &nbsp;
       <FormControl
-      
+      className="formControl"
       placeholder="Email"
       aria-label="Email"
       aria-describedby="basic-addon1"
       />
-        &nbsp;
+      
          <FormControl
         placeholder="Password"
         aria-label="Password"
         type="password"
         aria-describedby="basic-addon1"
-        /> &nbsp;
+        /> 
         <Link>
          <Button type="submit">Submit</Button>
-        </Link>&nbsp;
+        </Link>
          <Link to="/SignUp">
          <Button  type="submit"   >SignUp</Button>
          </Link> 

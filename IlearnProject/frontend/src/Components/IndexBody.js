@@ -7,8 +7,8 @@ import './IndexBody.css'
 function IndexBody()
 {
     return(
-        <Carousel>
-  <Carousel.Item interval={5000}>
+        <Carousel >
+  <Carousel.Item interval={4000}>
     <img
       className="d-block w-100"
       src={image1}
@@ -23,7 +23,7 @@ function IndexBody()
         </div>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={4000}>
     <img
       className="d-block w-100"
       src={image2}
