@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dfe4ea;
+}
+
+
+.currentMonth
+{
+  text-align: center;
+  margin : 0;
+  padding : 0;
+  transform: translate(-20px,0);
+  font-weight: bolder;
+  color : #8D8D8D;
+}
+#transparency
+{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  background-color: white;
+  grid-gap:15px;
+  width : auto;
+  padding : 15px;
+  border-top: 1px solid #F3F3F3;
+
+}
+
+
+
+.LastDay button, .DayCalendar button
+{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAFAFA;
+  width: 45px;
+  height : 45px;
+  margin : 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1.05em;
+  color : #C1C4DA;
+  transition: 0.2s ease;
+
+}
+
+.DayCalendar button:hover
+{
+  background-color: #594AEC;
+  color : white;
+  cursor: pointer;
+}
+
+.LastDay button
+{
+
+  background-color: #D4D4D4;
+  color : #8D8D8D;
+
+}
+.Head{
+  background-color: #ffffff;
+}
+form ul{
+  width: 400px;
+  /* color: #0000;   */
+  color: #ff7675;
+  font-weight: bold;
+  margin-top: 20%;
+}
+.Smol{
+  font-weight:normal;
+  color: black;
+  font-size: 15px;
+}
+.containerDiv{
+ 
+  background-color: white;
+  width : 450px;
+  height: 550px;
+  margin : auto;
+  border : 1px solid #EEEEEE;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.05);
+  position: absolute;
+  top: 60%;
+  right:35%;
+  transform: translate(0,-50%);
+}
+#PlaylistVideos
+{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  background-color: white;
+  grid-gap:15px;
+  width : 600px;
+  padding : 15px;
+  border-top: 1px solid #F3F3F3;
+
+}
+.PlaylistcontainerDiv{
+   
+  background-color: white;
+  width : 600px ;
+  height: 550px;
+  margin : auto;
+  border : 1px solid #EEEEEE;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.05);
+  position: absolute;
+  top: 60%;
+  right:35%;
+  transform: translate(0,-50%);
+}
+.PlaylistcontainerDiv ul{
+  font-size: 18px;
+}
+input[type=text], select, textarea {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20%;
+  width: 400px;
+  /* float: right; */
+}
+.IframeContainer{
+  width: 600px;
+}
+.Iframe{
+  width:560px; 
+  height:315px;
+}
+@media only screen and (max-width: 1000px ) {
+  /* For mobile phones: */
+  .containerDiv{
+   left: 5%;
+   top: 60%;
+    /* position: relative; */
+  }
+  .PlaylistcontainerDiv{
+    left: 2%;  
+    top: 60%;
+    width: 500px;
+  }
+  .IframeContainer{
+    width: 100px;
+  }
+  .Iframe{
+    width:400px; 
+    height:300px;
+  }
+}
