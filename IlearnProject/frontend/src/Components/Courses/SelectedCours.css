@@ -1,0 +1,47 @@
+.CenterDiv {
+    margin: auto;
+    width: 70%;
+    border : 1px solid #EEEEEE;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.5);
+    padding: 10px;
+   margin-top: 3%;
+   background-color: white;
+   
+  }
+.VideosDIv{
+    
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.CoursTitle{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+.IframeVideo
+{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+   
+}
+@media only screen and (max-width: 700px ) {
+.CenterDiv{
+    width: 90%;
+}
+.IframeVideo{
+    width: 100%;
+}
+.VideosDIv{
+    width: 100%;
+}
+
+}
